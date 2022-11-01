@@ -58,7 +58,7 @@ while True:
         j = json.loads(out)
         dev_node_status_value = int(j['Data'])
     except:
-        dev_node_status_value = device_status_value
+        # dev_node_status_value = device_status_value
         print('Error al obtener el valor del dispositivo')
         print(out)
         # exit()
