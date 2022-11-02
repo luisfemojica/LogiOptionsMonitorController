@@ -49,10 +49,10 @@ elif program_init == True and device_status == False:
 print('device_status_value',device_status_value)
 print('source_init',source_init)
 
-contador = 0
+# contador = 0
 while True:
-    contador += 1
-    print('contador',contador)
+    # contador += 1
+    # print('contador',contador)
     out = subprocess.getoutput("PowerShell -Command \"& {Get-PnpDevice -class Bluetooth -FriendlyName 'MX Master 3S' | Get-PnpDeviceProperty | Where-Object { $_.KeyName -match '^DEVPKEY_Device_DevNodeStatus' } | ConvertTo-Json}\"")
     try:
         j = json.loads(out)
