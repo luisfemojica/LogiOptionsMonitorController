@@ -1,1 +1,1 @@
-"C:\Users\fe_mo\AppData\Local\Programs\Python\Python311\python.exe" "C:\Users\fe_mo\Desktop\MonitorController\Funcionando\PYTHON\monitorcontrol\change_source_hdmi.py"
+"C:\Users\fe_mo\AppData\Local\Programs\Python\Python311\python.exe" "F:\Proyectos\LogiOptionsMonitorController\change_source_hdmi.py"

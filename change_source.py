@@ -2,6 +2,7 @@ from monitorcontrol import get_monitors
 
 source_hdmi = "COMPOSITE1"
 source_vga = "ANALOG1"
+source_dp = "DP1"
 
 for monitor in get_monitors():
     with monitor:
